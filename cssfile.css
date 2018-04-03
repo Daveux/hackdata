@@ -1,0 +1,18 @@
+
+.body{background-color:grey;}
+.ceo{margin-top: 100px;}
+.boss{padding-top: 0px; margin:0px; width:300px; background-color:; border: 3px solid #ccc; border-radius: 10px; padding-right: 0px; box-shadow: 0 0 10px;}
+/*.Compute{padding-right::50px;}*/
+.iberepepe{width: 300px; height: 30px; background-color: white;}
+.iberepepe p{color:grey; font-size:18px; font-family: helvetica, arial, sans-serif; font-weight: bold;}
+.dotred{background-color: red; width:12px; height:12px; border-radius: 100%;}
+.textfieldiv{margin-bottom: 10px; padding-left:0px;  width: 300px; height:100px;background-color: #475862;}
+.textfield{width: 300px; height:30px; text-align: right; background-color: #475862; border: 0; font-size: 20px;}
+.output{font-size:40px; color: white;}
+/*.seven,.eight,.nine{display: inline-block;}*/
+.styleAllBut{width: 300px;}
+.row1,.row2,.row3,.row4,.row5{padding-left: 0px; width: 300px; height:40px; margin-bottom:5px;}
+.numBut{width:40px; height:40px; padding: 0px; margin: 0px; display:inline-block; border: 2px solid grey; border-radius: 5px; background-color: white; color: grey;}
+.green{ background-color: white /*#03ad7a */; border: 2px solid #03ad7a; opacity: 1.0; border-radius: 5px;}
+.equals{width: 300px; height: 40px;border-radius: 10px; background-color: #009167; border:0; opacity:0.6;}
+.equal{padding-left: 0px;}

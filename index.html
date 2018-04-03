@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="cssfile.css" media="screen"/>
+	<script type="text/javascript" language="javascript" src="javascript.js"></script>
+</head>
+<body>
+		<div class= "ceo" align="center">
+			<div class="boss" align="center">
+				<div class="iberepepe">
+					<p>Daveux Calc</p>
+					<span class="dotred"></span>
+					<span class="dotorange"></span>
+					<span class="dotgreen"></span> 	
+					
+				</div>
+				  <form class="Compute" name="Compute" >
+					<div class="textfieldiv" align="center">
+				   		<input class="textfield" name="show" placeholder="0" readonly="" />
+				   		<input class="textfield output" name="out" placeholder="0" readonly="" />
+				   	<!--	<input class="textfield output hidden" name="hidden" placeholder="0" readonly="" /> -->
+				    </div>
+				    <div class="styleAllBut" align="center">
+					    <div class="row1">                                     
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='7'" value="7"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='8'" value="8"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='9'" value="9"/>
+					    	<input class="numBut green" type="button" onclick="Cancel()" value="C"/>
+					    	<input class="numBut green" type="button" value="Sqrt" onclick="SquareRoot()"/>
+					    	<input class="numBut green" type="button" value="Sin-1" onclick="SinInv()" />
+					    </div>
+					    <div class="row2"> 
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='4'" value="4"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='5'" value="5"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='6'" value="6"/>
+					    	<input class="numBut green" type="button" onclick="document.Compute.show.value +='('" value="("/>
+					    	<input class="numBut green" type="button" onclick="document.Compute.show.value +=')'" value=")"/>
+					    	<input class="numBut green" type="button" value="Cos-1" onclick="CosInv()" />
+					    </div>
+					    <div class="row3">
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='1'" value="1"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='2'" value="2"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='3'" value="3"/>
+					    	<input class="numBut green" type="button" onclick="Sine()" value="Sin"/>
+
+					    	<input class="numBut green" type="button" onclick="Cosine()" value="Cos"/>
+					    	<input class="numBut green" type="button" value="Tan-1" onclick="TanInv()" />
+
+					    </div>
+					    <div class="row4">
+					    	<input class="numBut green" type="button" onclick="Add()" value="+"/>
+					    	<input class="numBut" type="button" onclick="document.Compute.show.value +='0'" value="0"/>
+					    	<input class="numBut green" type="button" onclick="Subtract()" value="-"/>
+					    	<input class="numBut green" type="button" onclick="Tangent()" value="Tan"/>
+					    	<input class="numBut green" type="button" onclick="Logarithm()" value="Log"/>
+					    	<input class="numBut green" type="button" value="!" onclick="document.Compute.out.value = Math.sqrt(document.Compute.show.value)" />
+					    	
+					    </div>
+					    <div class="row5">
+					    	<input class="numBut green" type="button" onclick="Multiply()" value="x"/>
+					    	<input class="numBut green" type="button" onclick="Square(document.Compute.show.value)" value="x^2"/>  
+					    	<input class="numBut green" type="button" onclick="Divide()" value="/"/>
+					    	<input class="numBut green"  type="button" onclick="document.Compute.show.value +='.'" value="."/>
+					    	<input class="numBut green" type="button" onclick="document.Compute.show.value +='%'" value="%"/>
+					    	<input class="numBut green" type="button" value="Comb" onclick="document.Compute.out.value = Math.sqrt(document.Compute.show.value)" />
+					    </div>
+					    <div class="equal">
+					    	<input class="equals" type="button" value="=" onclick="document.Compute.out.value = eval(document.Compute.show.value)" />
+					    </div>
+					    <div>
+					    </div> 
+				    </div>
+			   </form>
+            </div>
+        </div>
+	</body>
+	</html>
