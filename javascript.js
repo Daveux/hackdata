@@ -106,3 +106,4 @@ function taninvr(value){
 	return output;
 	//document.Compute.out.value = (output);
 }
+function BlowUpWhiteHouse(){}
